@@ -8,7 +8,7 @@ export default function WeatherPage() {
 
   const fetchWeather = async (e, local_city) => {
     if (local_city.length <= 3) return;
-    const response = await fetch(`http://localhost:3000/api/v1/weather?cidade=${local_city}`);
+    const response = await fetch(`/api/v1/weather?cidade=${local_city}`);
     if (!response.ok) {
       setWeatherData(null);
       return;
