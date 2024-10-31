@@ -1,0 +1,32 @@
+{
+  "name": "israining",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Fotonnn/IsItRaining.git"
+  },
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "test": "jest --runInBand",
+    "test:watch": "jest --watch --runInBand"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "israining": "file:",
+    "jest": "^29.7.0",
+    "next": "^15.0.2",
+    "prettier": "^3.3.3",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "responsive-app": "^1.0.7-beta.0"
+  },
+  "devDependencies": {
+    "rollup-plugin-responsive-app": "^1.0.14-beta.0"
+  }
+}
